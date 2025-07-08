@@ -8,7 +8,7 @@ export default function Home() {
       <Header />
       <section
         className="hero-section"
-        style={{ backgroundImage: "url('/images/hero/hero.jpg')" }}
+        style={{ backgroundImage: "url('C:\Users\NadeemalTech\vite-app\public\images\rooms\deluxe.jpg')" }}
       >
         <div className="hero-content animate-fade-in">
           <h1 className="text-4xl font-bold mb-4 rainbow-text">Welcome to Hotel Bliss</h1>
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="gallery-preview-section">
         <h2 className="gallery-preview-title">Peek Into Paradise</h2>
         <div className="gallery-preview-list">
-          <img src="/images/gallery/1.jpg" alt="Room" className="gallery-img animate-zoom-in" />
+          <img src="/images/rooms/deluxe.jpg" alt="Room" className="gallery-img animate-zoom-in" />
           <img src="/images/gallery/2.jpg" alt="Pool" className="gallery-img animate-zoom-in" />
           <img src="/images/gallery/3.jpg" alt="Dining" className="gallery-img animate-zoom-in" />
         </div>
